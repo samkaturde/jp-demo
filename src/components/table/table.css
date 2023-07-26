@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Asset Class Coloring */
+/* Green */
+tr.credit {
+  background-color: #C8F7C5;
+}
+
+/* Blue */
+tr.equities {
+  background-color: #C0DFF6;
+}
+
+/* White */
+tr.macro {
+  background-color: #FFFFFF; 
+}
+
+/* Price Coloring */
+/* Black */
+td.positive {
+  color: #000000;
+}
+
+/* Red */
+td.negative {
+  color: #FF0000;
+}
